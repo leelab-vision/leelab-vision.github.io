@@ -126,7 +126,7 @@ canvas#particles {
 }
 .hero-statement {
   font-family: 'Cormorant Garamond', 'Cormorant', Georgia, serif;
-  font-size: clamp(1.3rem, 2.6vw, 2.4rem);
+  font-size: clamp(1.6rem, 2.6vw, 2.4rem);
   font-weight: 400; font-style: normal;
   color: rgba(255, 255, 255, 0.88);
   line-height: 1.3; letter-spacing: 0em;
@@ -167,7 +167,7 @@ canvas#particles {
   /* Original: font-family: 'Cormorant Garamond', 'Cormorant', Georgia, serif; font-size: 1.4rem; font-weight: 400; */
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.05rem; font-weight: 300;
-  color: #111; line-height: 1.75; margin-bottom: 0.5rem;
+  color: #111; line-height: 1.75; margin-bottom: 0.5rem; text-align: justify;
 }
 
 .research-images {
@@ -234,6 +234,12 @@ canvas#particles {
 .person-info .links-line a:hover { border-color: var(--text-dark); text-decoration: none; }
 
 @media (max-width: 480px) { .person-card { flex-direction: column; } }
+
+@media (max-width: 640px) {
+  .home-research .goals-heading { text-align: left; }
+  .home-research p { text-align: left; }
+  .home-research ul li { text-align: left; }
+}
 
 /* ── PLACEHOLDER PAGES ── */
 .placeholder-page { align-items: flex-start; justify-content: flex-start; }
