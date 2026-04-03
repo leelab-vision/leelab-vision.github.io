@@ -215,7 +215,7 @@ canvas#particles {
   border-bottom: 1px solid var(--border); padding-bottom: 0.6rem;
   margin-bottom: 2rem;
 }
-.person-card { display: flex; align-items: flex-start; gap: 2rem; }
+.person-card { display: flex; align-items: center; gap: 2rem; }
 .person-initials {
   width: 200px; height: 200px; border-radius: 0; flex-shrink: 0;
   background: #ddd; display: flex; align-items: center; justify-content: center;
@@ -230,7 +230,7 @@ canvas#particles {
 .person-info .contact-line a { color: var(--text-body); border-bottom: 1px solid var(--border); }
 .person-info .contact-line a:hover { border-color: var(--text-dark); text-decoration: none; }
 .person-info .links-line { margin-top: 0.65rem; font-size: 0.95rem; color: var(--text-muted); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; }
-.person-info .links-line a { color: var(--text-body); border-bottom: 1px solid var(--border); padding-bottom: 1px; }
+.person-info .links-line a { color: #4a90c8; border-bottom: 1px solid rgba(74,144,200,0.3); padding-bottom: 1px; }
 .person-info .links-line a:hover { border-color: var(--text-dark); text-decoration: none; }
 
 @media (max-width: 480px) { .person-card { flex-direction: column; } }

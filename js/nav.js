@@ -7,9 +7,10 @@
   const pages = [
     { key: 'research',     label: 'Research',     href: 'index.html' },
     { key: 'people',       label: 'People',       href: 'people.html' },
-    { key: 'position',     label: 'Position',     href: 'position.html' },
     { key: 'publications', label: 'Publications', href: 'publications.html' },
+    { key: 'position',     label: 'Position',     href: 'position.html' },
     { key: 'resources',    label: 'Resources',    href: 'resources.html' },
+    { key: 'lab-news',     label: 'Lab News',     href: 'lab-news.html' },
     { key: 'contact',      label: 'Contact',      href: 'contact.html' },
   ];
 
