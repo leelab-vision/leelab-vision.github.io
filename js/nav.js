@@ -9,8 +9,8 @@
     { key: 'people',       label: 'People',       href: 'people.html' },
     { key: 'publications', label: 'Publications', href: 'publications.html' },
     { key: 'position',     label: 'Position',     href: 'position.html' },
-    { key: 'resources',    label: 'Resources',    href: 'resources.html' },
     { key: 'lab-news',     label: 'Lab News',     href: 'lab-news.html' },
+    { key: 'resources',    label: 'Resources',    href: 'resources.html' },
     { key: 'contact',      label: 'Contact',      href: 'contact.html' },
   ];
 
