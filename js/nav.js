@@ -23,7 +23,7 @@
   const navHTML = `
     <nav id="site-nav">
       <div class="nav-inner">
-        <a href="index.html" class="nav-logo">JL Lab</a>
+        <a href="index.html" class="nav-logo">Lee Lab</a>
 
         <ul class="nav-links" id="navLinks">${linksHTML}</ul>
         <div class="hamburger" id="hamburger" role="button" tabindex="0" aria-label="Toggle menu">
