@@ -189,6 +189,12 @@ canvas#particles {
   color: #888; margin-bottom: 0.4rem; letter-spacing: -0.01em;
   font-family: 'Cormorant Garamond', 'Cormorant', Georgia, serif;
 }
+.position-subheading {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.25rem; font-weight: 500;
+  color: #888; margin: 1.6rem 0 0.4rem;
+}
+
 .page-divider {
   width: 32px; height: 1px; background: var(--text-muted);
   margin: 1rem 0 2.5rem;
